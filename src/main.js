@@ -5,6 +5,9 @@ const xObject = JSON.parse(x)
 let hashMap = xObject || [
     { logo: 'B', logotype: 'text', url: 'https://www.baidu.com', link: 'baidu.com' },
     { logo: 'G', logotype: 'text', url: 'https://www.google.com', link: 'google.com' },
+    { logo: 'J', logotype: 'text', url: 'https://juejin.im', link: 'juejin.im' },
+    { logo: 'L', logotype: 'text', url: 'https://leetcode.com', link: 'leetcode.com' },
+    { logo: 'Z', logotype: 'text', url: 'https://zhihu.com', link: 'zhihu.com' },
 ];
 const render = () => {
     $siteList.find('li:not(.last)').remove()
